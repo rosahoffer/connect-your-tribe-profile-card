@@ -26,6 +26,13 @@ h1{
   letter-spacing: -10px
 }
 
+h2{
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -2px
+}
+
 h3{
   font-size: 1.5rem;
   font-weight: 100;
@@ -64,3 +71,33 @@ p{
   margin-bottom: -1rem;
 }
 
+.top-head > p{
+  padding-bottom: 2rem;
+}
+
+.top-head > a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--secondary);
+  font-weight: 700;
+  letter-spacing: 7px;
+}
+
+.arrow-white-line{
+  padding-top: 3rem
+}
+
+/* ABOUT */
+
+.top-about{
+  text-align: center;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.top-about > div > p{
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  margin-top: -1rem;
+}
